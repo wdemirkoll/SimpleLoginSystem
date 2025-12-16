@@ -9,7 +9,7 @@ int main(){
     std::string entered_Username;
 
     // Define the correct password for authentication
-    int correct_Password = 123456789;
+    std::string correct_Password = "123456789";
 
     // Variable to store the password entered by the user
     int entered_Password;
@@ -53,3 +53,4 @@ int main(){
 
     return 0;
 }
+
