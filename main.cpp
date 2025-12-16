@@ -12,7 +12,7 @@ int main(){
     std::string correct_Password = "123456789";
 
     // Variable to store the password entered by the user
-    int entered_Password;
+    std::string entered_Password;
 
     // Set the number of allowed login attempts
     int Right_to_Try = 3;
@@ -53,4 +53,3 @@ int main(){
 
     return 0;
 }
-
